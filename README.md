@@ -1,4 +1,4 @@
-# RAG Security Scanner 🛡️
+# RAG/LLM Security Scanner 🛡️
 
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -7,7 +7,7 @@
 
 **Professional security testing tool for Retrieval-Augmented Generation (RAG) systems and LLM applications** 🤖
 
-RAG Security Scanner identifies critical vulnerabilities in AI-powered applications, including chatbots, virtual assistants, and knowledge retrieval systems.
+RAG/LLM Security Scanner identifies critical vulnerabilities in AI-powered applications, including chatbots, virtual assistants, and knowledge retrieval systems.
 
 ## ✨ Key Features
 
