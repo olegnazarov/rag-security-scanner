@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  rag-scanner:
+    build: .
+    image: rag-security-scanner:latest
+    container_name: rag-security-scanner
+    volumes:
+      - ./reports:/app/reports
+      - ./config.json:/app/config.json
+    environment:
+      - PYTHONPATH=/app/src
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+    command: ["--demo", "--format", "html"]
+    
+  # Demo scan service
+  demo:
+    extends: rag-scanner
+    container_name: rag-scanner-demo
+    command: ["--demo", "--format", "html"]
+    
+  # Quick scan service
+  quick:
+    extends: rag-scanner
+    container_name: rag-scanner-quick
+    command: ["--scan-type", "prompt", "--format", "json", "--delay", "0.5"]
+    
+  # Full scan service
+  full:
+    extends: rag-scanner
+    container_name: rag-scanner-full
+    command: ["--scan-type", "full", "--format", "html", "--delay", "1.0"]
+    
+  # Data leakage scan service
+  data:
+    extends: rag-scanner
+    container_name: rag-scanner-data
+    command: ["--scan-type", "data", "--format", "json", "--delay", "0.7"]
+    
+  # Function abuse scan service
+  function:
+    extends: rag-scanner
+    container_name: rag-scanner-function
+    command: ["--scan-type", "function", "--format", "json", "--delay", "0.7"]
+    
+  # Context manipulation scan service
+  context:
+    extends: rag-scanner
+    container_name: rag-scanner-context
+    command: ["--scan-type", "context", "--format", "json", "--delay", "0.7"]
+
+volumes:
+  reports:
+    driver: local
+
+networks:
+  default:
+    name: rag-scanner-network
