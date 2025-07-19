@@ -9,6 +9,8 @@
 
 RAG/LLM Security Scanner identifies critical vulnerabilities in AI-powered applications, including chatbots, virtual assistants, and knowledge retrieval systems.
 
+<img width="1006" height="799" alt="html_report" src="https://github.com/user-attachments/assets/638f3617-2306-4718-a501-9c8ed05bc975" />
+
 ## ✨ Key Features
 
 - 🎯 **Prompt Injection Detection** - Advanced payload testing for instruction manipulation
@@ -213,9 +215,6 @@ json:
   ]
 }
 ```
-html:
-<img width="1006" height="799" alt="html_report" src="https://github.com/user-attachments/assets/638f3617-2306-4718-a501-9c8ed05bc975" />
-
 
 ## 🤝 Contributing
 
