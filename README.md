@@ -238,13 +238,6 @@ pip install -r requirements.txt
 pytest tests/ -v
 ```
 
-## 📚 Documentation & Resources
-
-- 📖 **[API Reference](docs/api.md)** - Detailed API documentation
-- 🎯 **[Security Research](docs/research.md)** - RAG security vulnerabilities explained
-- 🔧 **[Integration Guide](docs/integration.md)** - Custom RAG system integration
-- 🚀 **[Best Practices](docs/best-practices.md)** - Security implementation guidelines
-
 ## 📞 Support & Contact
 
 - 🐛 **Issues**: [GitHub Issues](https://github.com/olegnazarov/rag-security-scanner/issues)
