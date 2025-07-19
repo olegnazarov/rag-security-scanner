@@ -190,6 +190,7 @@ python src/rag_scanner.py \
 
 Reports include comprehensive security analysis:
 
+json:
 ```json
 {
   "scan_id": "scan_20250115_143522_a1b2c3d4",
@@ -212,6 +213,9 @@ Reports include comprehensive security analysis:
   ]
 }
 ```
+html:
+<img width="1006" height="799" alt="html_report" src="https://github.com/user-attachments/assets/638f3617-2306-4718-a501-9c8ed05bc975" />
+
 
 ## 🤝 Contributing
 
