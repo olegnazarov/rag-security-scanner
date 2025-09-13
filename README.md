@@ -242,8 +242,7 @@ pytest tests/ -v
 
 - 🐛 **Issues**: [GitHub Issues](https://github.com/olegnazarov/rag-security-scanner/issues)
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/olegnazarov/rag-security-scanner/discussions)
-- 📧 **Email**: oleg@olegnazarov.com
-- 💼 **LinkedIn**: [linkedin.com/in/olegnazarov-aimlsecurity](https://www.linkedin.com/in/olegnazarov-aimlsecurity)
+- 💼 **LinkedIn**: [https://www.linkedin.com/in/olegnazarovdev](https://www.linkedin.com/in/olegnazarovdev/)
 
 ## 📄 License
 
